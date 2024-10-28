@@ -27,5 +27,15 @@ public interface LoginUserDataAccessInterface {
      */
     User get(String username);
 
+    /**
+     * Sets the currentUser to the user's name.
+     * @param name the name of the current user.
+     */
     void setCurrentUser(String name);
+
+    /**
+     * Returns the string of the user's name.
+     * @return the name of the current user.
+     */
+    String getCurrentUser();
 }
